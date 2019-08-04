@@ -1,0 +1,13 @@
+ws:
+  calculator:
+    uri:         http://www.dneonline.com/calculator.asmx
+    contextPath: calculator.wsdl
+    callback:
+      endpoint: http://tempuri.org/
+      action:
+        add:      Add
+        subtract: Subtract
+        multiply: Multiply
+        divide:   Divide
+
+
